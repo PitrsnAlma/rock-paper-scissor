@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock vs Paper vs Scissors</title>
+    <link rel="stylesheet" href="src/styles/main.scss">
+
+</head>
+<body>
+<div id="statistics" class="is-empty">
+    <div class="block full">
+        <div class="label">Winning team: <span id="team">None</span></div>
+    </div>
+    <div class="block">
+        <div class="label">Papers: <span id="papers">0</span></div>
+    </div>
+    <div class="block">
+        <div class="label">Rocks: <span id="rocks">0</span></div>
+    </div>
+    <div class="block">
+        <div class="label">Scissors: <span id="scissors">0</span></div>
+    </div>
+</div>
+<div id="game-container"></div>
+<div id="controls">
+    <div class="speaker">
+        <div id="mute" class="mute"></div>
+        <span></span>
+    </div>
+    <div class="volume">
+        Volume
+        <input type="range" min="0" max="100" value="100" class="slider" id="volume">
+    </div>
+</div>
+
+<script type="module" src="src/js/main.js"></script>
+</body>
+</html>

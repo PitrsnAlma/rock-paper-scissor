@@ -1,0 +1,57 @@
+#statistics {
+  margin: 0 auto;
+  width: calc($game-container-width - calc($gap * 2));
+  display: flex;
+  flex-wrap: wrap;
+  background: black;
+  justify-content: center;
+  padding: $gap;
+  border-radius: 3px 3px 0 0;
+  color: $color-primary;
+  transition: opacity 0.3s, background 0.3s;
+
+  * {
+    opacity: 1;
+  }
+
+  &.is-empty{
+    background: transparent;
+
+    * {
+      opacity: 0;
+    }
+  }
+
+  .block {
+    display: flex;
+    justify-content: center;
+    margin-top: calc($gap / 2);
+    padding: calc($gap / 2);
+    font-size: 1.2rem;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &.full {
+      width: 100%;
+      font-size: 1.5rem;
+      text-wrap: none;
+    }
+  }
+
+  .label {
+    text-align: center;
+
+    span {
+      font-weight: bold;
+      color: white;
+    }
+  }
+
+  #team {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+}

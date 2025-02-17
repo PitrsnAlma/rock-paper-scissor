@@ -1,0 +1,17 @@
+{
+  "name": "phaser-game",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "phaser": "^3.70.0",
+    "sass": "^1.84.0"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0",
+    "vite-plugin-sass": "^0.1.0"
+  }
+}

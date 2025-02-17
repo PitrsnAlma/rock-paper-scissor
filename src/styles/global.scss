@@ -1,0 +1,25 @@
+@font-face {
+  font-family: SpaceNova;
+  src: url(../fonts/space-nova.otf) format("opentype");;
+}
+
+body {
+  margin: 0;
+  background: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  font-family: SpaceNova, sans-serif;
+  box-sizing: border-box;
+}
+
+#game-container {
+  white-space: normal;
+  display: flex;
+  flex-wrap: wrap;
+  width: $game-container-width;
+  height: $game-container-height;
+  background: black;
+}
