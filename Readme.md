@@ -15,4 +15,6 @@ npm run build
 
 ## Assets
 https://opengameart.org/
+https://befonts.com/space-nova-font.html
+
 
